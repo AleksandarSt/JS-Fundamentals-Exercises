@@ -25,7 +25,14 @@ let result=`Now Playing: ${artist} - ${trackName} [${trackDuration}]`;
 return result;
 }
 
-console.log()
+//10.	Compose Tag
+function composeTag([location, alternateText]){
+    let result = `<img src="${location}" alt="${alternateText}">`;
+
+    return result;
+}
+
+console.log(composeTag(['smiley.gif', 'Smiley Face']));
 //console.log(getTrack(['Number One', 'Nelly', '4:09']));
 //console.log(calculateInterest([1500, 4.3, 3, 6]));
 //console.log(convertImperialUnits(11));
