@@ -243,7 +243,8 @@ function generateDNASequence(input) {
     }
 }
 
-generateDNASequence(10)
+
+//generateDNASequence(10)
 //console.log(locateTreasures([4, 2, 1.5, 6.5, 1, 3]));
 //console.log(checkValidity([2, 1, 1, 1]));
 //console.log(modifyAverage(101));
